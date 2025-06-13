@@ -1,0 +1,11 @@
+<po-table
+  [p-items]="tasks"
+  [p-columns]="columns"
+  p-legend
+  [p-legend-items]="legend">
+</po-table>
+
+<po-page-default
+  p-title="Tarefas"
+  (p-save)="onSave($event)">
+</po-page-default>
